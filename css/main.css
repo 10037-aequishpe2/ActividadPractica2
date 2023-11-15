@@ -1,0 +1,53 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+    font-size: 16px;
+}
+
+.contenido-scrollspy {
+    overflow-y: scroll;
+    height: 550px;
+}
+
+.logo-text {
+    font-family: 'fantasy';
+    size: 25px;
+
+}
+
+body {
+
+    background: linear-gradient(rgb(178, 226, 255, 0.8), rgb(132, 203, 255, 0.8)), url("..//img/fondo.jpg");
+
+    background-size: cover;
+    background-position: center;
+    color: black;
+}
+
+.center-cell {
+    vertical-align: middle;
+}
+
+.align-middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#miComponente {
+    background-color: #3498db;
+    color: #b50c0c;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: opacity 0.3s ease-in-out, transform 0.5s ease-in-out; /* Agregamos una transición de opacidad */
+}
+
+#miComponente:hover {
+    opacity: 0.8; /* Cambiamos la opacidad cuando el cursor está sobre el componente */
+    transform: rotate(360deg); /* Rotamos el componente 360 grados */
+}
